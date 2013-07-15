@@ -1,0 +1,29 @@
+{
+    "name": "quantis/zippy-silex-provider",
+    "type": "silex-provider",
+    "description": "Zippy silex provider",
+    "keywords": ["Zippy", "Silex", "zip", "tar", "bzip", "compression", "archive"],
+    "authors": [
+        {
+            "name": "Alchemy",
+            "email": "dev.team@alchemy.fr",
+            "homepage": "http://www.alchemy.fr/"
+        },
+        {
+            "name": "Arnaud LEMAIRE",
+            "email": "alemaire@quantis.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "alchemy/zippy": "0.1.*@dev"
+    },
+    "autoload": {
+        "classmap": [ "ZippyServiceProvider.php" ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
