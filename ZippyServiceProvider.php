@@ -2,6 +2,9 @@
 
 namespace Zippy;
 
+use Silex\Application;
+use Silex\ServiceProviderInterface;
+
 use Alchemy\Zippy\Zippy;
 use Alchemy\Zippy\Adapter\AdapterContainer;
 /**
